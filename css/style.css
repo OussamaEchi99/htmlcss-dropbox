@@ -23,11 +23,12 @@ body{
 a{
     text-decoration: none;
     display: inline-block;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .btn-blue{
     background-color: #0061ff;
+    padding: 7px 20px;
 }
 
 /* TEST */
@@ -40,8 +41,15 @@ a{
 }
 
 .h500{
-    height: 1500px;
-    background-color: pink;
+    height: 500px;
+}
+
+.h800{
+    height: 800px;
+}
+
+.h1000{
+    height: 1000px;
 }
 
 /* HEADER */
@@ -78,7 +86,6 @@ header{
 
 .btn-function a:last-child{
     display: inline;
-    padding: 7px 20px;
     color: white;
     border: none;
 }
@@ -86,4 +93,51 @@ header{
 /* MAIN */
 main{
     margin-top: 80px;
+    background-color: pink;
+}
+
+.container{
+    background-color: #b4d0e7;
+    height: 720px;
+}
+
+.banner{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 42px;
+}
+
+.paragraph-btn{
+    width: 30%;
+}
+
+.banner-image{
+    width: 60%;
+    margin: 30px;
+}
+
+.paragraph-btn > *{
+    margin: 30px 0;
+}
+
+.paragraph-btn > span{
+    font-size: 50px;
+}
+
+.free-trial a{
+    color: white;
+}
+
+.free-trial span{
+    display: block;
+    margin: 10px 0;
+}
+
+.banner-image img{
+    width: 100%;
 }

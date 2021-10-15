@@ -1,0 +1,89 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+}
+
+/* TEST */
+.h100{
+    height: 100px;
+}
+
+.h400{
+    height: 400px;
+}
+
+.h500{
+    height: 1500px;
+    background-color: pink;
+}
+
+/* HEADER */
+header{
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.logo-function{
+    width: 50%;
+}
+
+.btn-function{
+    width: 50%;
+    text-align: right;
+}
+
+.col a{
+    color: black;
+}
+
+.logo-function *, .btn-function *{
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+.logo-function a:hover, .btn-function a:hover{
+    border-bottom: 2px solid black;
+}
+
+.btn-function a:last-child{
+    display: inline;
+    padding: 7px 20px;
+    color: white;
+    border: none;
+}
+
+/* MAIN */
+main{
+    margin-top: 80px;
+}

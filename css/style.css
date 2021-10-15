@@ -31,6 +31,15 @@ a{
     padding: 7px 20px;
 }
 
+.container-type2{
+    width: 70%;
+    margin: auto;
+
+    /* TEST */
+    background-color: yellowgreen;
+    height: 1000px;
+}
+
 /* TEST */
 .h100{
     height: 100px;
@@ -140,4 +149,89 @@ main{
 
 .banner-image img{
     width: 100%;
+}
+
+/* SECTION */
+section{
+    margin: 200px 0;
+}
+
+.section-title1 h2{
+    font-size: 50px;
+}
+
+.circle{
+    background-color: #0061ff;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+}
+
+.circle span{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle-blue{
+    background-color: #0061ff;
+}
+
+.circle-white{
+    background-color: white;
+}
+.subscription-btn{
+    margin: 50px 0 20px 0;
+}
+
+.subscription-btn > span{
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.subscription-professional,
+.subscription-standard,
+.subscription-advanced{
+    width: calc((100% / 3) - 20px);
+}
+
+.subscription-professional{
+    background-color: chocolate;
+}
+
+.subscription-user-quantity{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.subscription-standard{
+    background-color: yellow;
+    margin: 0 30px;
+}
+
+.subscription-advanced{
+    background-color: red;
+}
+
+.subscription-description{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.subscription-type-title-price strong{
+    margin: 20px 0 10px 0;
+    display: inline-block;
+}
+
+.subscription-type-title-price h3{
+    font-size: 30px;
 }

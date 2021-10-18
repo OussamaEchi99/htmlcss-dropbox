@@ -41,6 +41,11 @@ a{
     margin: auto;
 }
 
+.container-type3{
+    width: 60%;
+    margin: auto;
+}
+
 ul{
     list-style-type: none;
 }
@@ -74,6 +79,7 @@ header{
     left: 0;
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 
 .logo-function{
@@ -373,4 +379,125 @@ section{
 
 .dropbox-business h2{
     margin: 10px 0 20px 0;
+}
+
+/* SECTION4 */
+.business-dropbox-partners-title{
+    font-size: 40px;
+    width: 65%;
+}
+
+.business-dropbox-partners a{
+    color: #4189ff;
+    text-decoration: underline;
+    margin: 30px 0;
+}
+
+.business-partners-image{
+    width: 30%;
+    height: 500px;
+}
+
+.business-partners-center{
+    width: 40%;
+    background-color: #f5f5f5;
+    min-height: 500px;
+}
+
+.business-partners-row{
+    width: 100%;
+    position: relative;
+    height: 50%;
+}
+
+.box{
+    width: 50%;
+    height: 100%;
+}
+
+.box img{
+    width: 7vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
+}
+
+.designit{
+    background-color: #a2d39b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 10px solid #d0e9cd;
+}
+
+.arizona-state-university{
+    background-color: #61082b;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.university-of-florida{
+    background-color: #0093ce;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.topps{
+    background-color: #ff1c1c;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.world-bicycle-relief{
+    background-color: #d5001f;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hearst-corp{
+    background-color: #b4d0e7;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lonely-planet{
+    background-color: #0d2481;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.clear-channel{
+    background-color: #ffd830;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.logo-description{
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.partner-logo img{
+    width: 7vw;
+}
+
+.logo-description > span{
+    display: block;
+    border-bottom: 1px solid #d0d0d3;
+    width: 60px;
+    height: 1px;
+}
+
+.logo-description p{
+    margin: 50px 0;
 }

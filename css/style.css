@@ -31,6 +31,11 @@ a{
     padding: 7px 20px;
 }
 
+.btn-white{
+    background-color: white;
+    padding: 7px 20px;
+}
+
 .container-type2{
     width: 70%;
     margin: auto;
@@ -209,13 +214,13 @@ section{
     height: 994px;
 }
 .type{
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
 }
 
 .subscription-user-quantity{
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 .subscription-standard{
@@ -271,7 +276,7 @@ section{
 
 .subscription-btn-freetrial span:last-child{
     display: block;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #d0d0d3;
     width: 60px;
     height: 1px;
 }
@@ -283,4 +288,55 @@ section{
 .subscription-pro li span{
     color: #0262ff
 }
-/* FINITO DI SETTARE IL FONT SIZE SUL H3, FARE IL PRISSIMO DIV */
+
+.personalized-subscription{
+    width: 100%;
+    border: 1px solid #d0d0d3;
+    margin: 60px 0;
+}
+
+.titile-personalized-subscription{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.personalized-subscription-description{
+    padding: 10px 10px 10px 20px;
+    width: 75%;
+    margin: 20px 0;
+}
+
+.personalized-subscription-description strong{
+    display: inline-block;
+    margin: 20px 0 30px 0;
+}
+
+.personalized-subscription-btn{
+    width: 25%;
+}
+
+.personalized-subscription-btn a{
+    width: 100%;
+    text-align: center;
+    margin: 30px -40px;
+    color: white;
+}
+
+/* SECTION 2 */
+.dropbox-parther-image{
+    width: 60%;
+}
+
+.dropbox-parther-description{
+    width: 40%;
+    padding: 20px 40px;
+}
+
+.dropbox-parther-image img{
+    width: 100%;
+}
+
+.dropbox-parther-description a{
+    border: 1px solid black;
+}

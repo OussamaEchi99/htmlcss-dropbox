@@ -36,8 +36,12 @@ a{
     margin: auto;
 
     /* TEST */
-    background-color: yellowgreen;
+   
     height: 1000px;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* TEST */
@@ -102,7 +106,6 @@ header{
 /* MAIN */
 main{
     margin-top: 80px;
-    background-color: pink;
 }
 
 .container{
@@ -188,7 +191,7 @@ section{
     background-color: white;
 }
 .subscription-btn{
-    margin: 50px 0 20px 0;
+    margin: 60px 0 40px 0;
 }
 
 .subscription-btn > span{
@@ -203,28 +206,26 @@ section{
 }
 
 .subscription-professional{
-    background-color: chocolate;
+    height: 994px;
+}
+.type{
+    border: 1px solid black;
 }
 
 .subscription-user-quantity{
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .subscription-standard{
-    background-color: yellow;
     margin: 0 30px;
-}
-
-.subscription-advanced{
-    background-color: red;
 }
 
 .subscription-description{
     width: 85%;
     margin: auto;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .subscription-type-title-price strong{
@@ -235,3 +236,51 @@ section{
 .subscription-type-title-price h3{
     font-size: 30px;
 }
+
+.type li{
+    padding: 10px 10px 10px 20px;
+}
+
+.type li span{
+    margin-left: -22px;
+    margin-right: 2px;
+}
+
+.subscription-description-text-function ul{
+    margin: 40px 0 30px 0;
+}
+
+.subscription-btn-freetrial{
+    margin: 30px 0;
+}
+
+.subscription-btn-freetrial *{
+    margin: 20px 0;
+}
+
+.subscription-btn-freetrial > a{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.subscription-btn-freetrial span a{
+    color: #0262ff;
+    text-decoration: underline #0262ff;
+}
+
+.subscription-btn-freetrial span:last-child{
+    display: block;
+    border-bottom: 1px solid lightgrey;
+    width: 60px;
+    height: 1px;
+}
+
+.subscription-pro{
+    margin: 50px 0;
+}
+
+.subscription-pro li span{
+    color: #0262ff
+}
+/* FINITO DI SETTARE IL FONT SIZE SUL H3, FARE IL PRISSIMO DIV */
